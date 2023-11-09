@@ -1,0 +1,32 @@
+float(1.2345678901234567)
+float(1.2345678901234569E+100)
+1.2345678901
+1.23456789
+1.2345678901234569e+100
+1.2345678901234569E+100
+1.2345678901234569e+100
+1.2345678901234569E+100
+foo
+
+  1.234568
+   1.23457
+    foobar
+
+     1.235
+      1.23
+       foo
+
+1.2345678901
+1.2345678901
+1.2345678901
+  1.234568
+  1.234568
+  1.234568
+     1.235
+     1.235
+     1.235
+
+Precision must be an integer
+Precision must be between -1 and 2147483647
+Precision -1 is only supported for %g, %G, %h and %H
+Width must be greater than zero and less than 2147483647

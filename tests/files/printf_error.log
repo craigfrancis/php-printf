@@ -1,0 +1,39 @@
+
+---- EXPECTED OUTPUT
+*** Testing printf() : error conditions ***
+
+-- Testing printf() function with Zero arguments --
+printf() expects at least 1 argument, 0 given
+
+-- Testing printf() function with less than expected no. of arguments --
+
+-- Call printf with one argument less than expected --
+2 arguments are required, 1 given
+3 arguments are required, 2 given
+4 arguments are required, 3 given
+
+-- Call printf with two argument less than expected --
+3 arguments are required, 1 given
+4 arguments are required, 2 given
+
+-- Call printf with three argument less than expected --
+4 arguments are required, 1 given
+---- ACTUAL OUTPUT
+*** Testing printf() : error conditions ***
+
+-- Testing printf() function with Zero arguments --
+Too few arguments to function user_printf(), 0 passed in /Volumes/WebServer/Projects/php.fprint/tests/files/printf_error.php on line 7 and exactly 1 expected
+
+-- Testing printf() function with less than expected no. of arguments --
+
+-- Call printf with one argument less than expected --
+
+Warning: Undefined variable $args in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29
+
+Fatal error: Uncaught TypeError: user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29 and defined in /Volumes/WebServer/Projects/php.fprint/functions.php:22
+Stack trace:
+#0 /Volumes/WebServer/Projects/php.fprint/functions.php(29): user_vprintf('%s', NULL)
+#1 /Volumes/WebServer/Projects/php.fprint/tests/files/printf_error.php(21): user_printf('%s')
+#2 {main}
+  thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 22
+---- FAILED

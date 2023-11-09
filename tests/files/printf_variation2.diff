@@ -1,0 +1,196 @@
+     *** Testing printf() : with different types of values passed for arg1 argument ***
+     
+     -- Iteration 1 --
+004- 0
+005- int(1)
+006- 0
+007- int(1)
+     
+009- -- Iteration 2 --
+010- 1
+011- int(1)
+012- 1
+013- int(1)
+005+ Warning: Undefined variable $args in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29
+     
+015- -- Iteration 3 --
+016- 12345
+017- int(5)
+018- 12345
+019- int(5)
+020- 
+021- -- Iteration 4 --
+022- -2345
+023- int(5)
+024- -2345
+025- int(5)
+026- 
+027- -- Iteration 5 --
+028- 10.5
+029- int(4)
+030- 10.5
+031- int(4)
+032- 
+033- -- Iteration 6 --
+034- -10.5
+035- int(5)
+036- -10.5
+037- int(5)
+038- 
+039- -- Iteration 7 --
+040- 101234567000
+041- int(12)
+042- 101234567000
+043- int(12)
+044- 
+045- -- Iteration 8 --
+046- 1.07654321E-9
+047- int(13)
+048- 1.07654321E-9
+049- int(13)
+050- 
+051- -- Iteration 9 --
+052- 0.5
+053- int(3)
+054- 0.5
+055- int(3)
+056- 
+057- -- Iteration 10 --
+058- 
+059- Warning: Array to string conversion in %s on line %d
+060- Array
+061- int(5)
+062- 
+063- Warning: Array to string conversion in %s on line %d
+064- Array
+065- int(5)
+066- 
+067- -- Iteration 11 --
+068- 
+069- Warning: Array to string conversion in %s on line %d
+070- Array
+071- int(5)
+072- 
+073- Warning: Array to string conversion in %s on line %d
+074- Array
+075- int(5)
+076- 
+077- -- Iteration 12 --
+078- 
+079- Warning: Array to string conversion in %s on line %d
+080- Array
+081- int(5)
+082- 
+083- Warning: Array to string conversion in %s on line %d
+084- Array
+085- int(5)
+086- 
+087- -- Iteration 13 --
+088- 
+089- Warning: Array to string conversion in %s on line %d
+090- Array
+091- int(5)
+092- 
+093- Warning: Array to string conversion in %s on line %d
+094- Array
+095- int(5)
+096- 
+097- -- Iteration 14 --
+098- 
+099- Warning: Array to string conversion in %s on line %d
+100- Array
+101- int(5)
+102- 
+103- Warning: Array to string conversion in %s on line %d
+104- Array
+105- int(5)
+106- 
+107- -- Iteration 15 --
+108- 
+109- int(0)
+110- 
+111- int(0)
+112- 
+113- -- Iteration 16 --
+114- 
+115- int(0)
+116- 
+117- int(0)
+118- 
+119- -- Iteration 17 --
+120- 1
+121- int(1)
+122- 1
+123- int(1)
+124- 
+125- -- Iteration 18 --
+126- 
+127- int(0)
+128- 
+129- int(0)
+130- 
+131- -- Iteration 19 --
+132- 1
+133- int(1)
+134- 1
+135- int(1)
+136- 
+137- -- Iteration 20 --
+138- 
+139- int(0)
+140- 
+141- int(0)
+142- 
+143- -- Iteration 21 --
+144- 
+145- int(0)
+146- 
+147- int(0)
+148- 
+149- -- Iteration 22 --
+150- 
+151- int(0)
+152- 
+153- int(0)
+154- 
+155- -- Iteration 23 --
+156- string
+157- int(6)
+158- string
+159- int(6)
+160- 
+161- -- Iteration 24 --
+162- string
+163- int(6)
+164- string
+165- int(6)
+166- 
+167- -- Iteration 25 --
+168- Object
+169- int(6)
+170- Object
+171- int(6)
+172- 
+173- -- Iteration 26 --
+174- 
+175- int(0)
+176- 
+177- int(0)
+178- 
+179- -- Iteration 27 --
+180- 
+181- int(0)
+182- 
+183- int(0)
+184- 
+185- -- Iteration 28 --
+186- Resource id #%d
+187- int(%d)
+188- Resource id #%d
+189- int(%d)
+007+ Fatal error: Uncaught TypeError: user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29 and defined in /Volumes/WebServer/Projects/php.fprint/functions.php:22
+008+ Stack trace:
+009+ #0 /Volumes/WebServer/Projects/php.fprint/functions.php(29): user_vprintf('%s', NULL)
+010+ #1 /Volumes/WebServer/Projects/php.fprint/tests/files/printf_variation2.php(84): user_printf('%s', 0)
+011+ #2 {main}
+012+   thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 22

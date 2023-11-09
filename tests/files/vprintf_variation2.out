@@ -1,0 +1,70 @@
+*** Testing vprintf() : with unexpected values for args argument ***
+
+-- Iteration 1 --
+user_vprintf(): Argument #2 ($values) must be of type array, int given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 2 --
+user_vprintf(): Argument #2 ($values) must be of type array, int given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 3 --
+user_vprintf(): Argument #2 ($values) must be of type array, int given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 4 --
+user_vprintf(): Argument #2 ($values) must be of type array, int given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 5 --
+user_vprintf(): Argument #2 ($values) must be of type array, float given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 6 --
+user_vprintf(): Argument #2 ($values) must be of type array, float given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 7 --
+user_vprintf(): Argument #2 ($values) must be of type array, float given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 8 --
+user_vprintf(): Argument #2 ($values) must be of type array, float given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 9 --
+user_vprintf(): Argument #2 ($values) must be of type array, float given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 10 --
+user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 11 --
+user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 12 --
+user_vprintf(): Argument #2 ($values) must be of type array, bool given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 13 --
+user_vprintf(): Argument #2 ($values) must be of type array, bool given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 14 --
+user_vprintf(): Argument #2 ($values) must be of type array, bool given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 15 --
+user_vprintf(): Argument #2 ($values) must be of type array, bool given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 16 --
+user_vprintf(): Argument #2 ($values) must be of type array, string given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 17 --
+user_vprintf(): Argument #2 ($values) must be of type array, string given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 18 --
+user_vprintf(): Argument #2 ($values) must be of type array, string given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 19 --
+user_vprintf(): Argument #2 ($values) must be of type array, string given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 20 --
+user_vprintf(): Argument #2 ($values) must be of type array, sample given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 21 --
+user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 22 --
+user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80
+
+-- Iteration 23 --
+user_vprintf(): Argument #2 ($values) must be of type array, resource given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/vprintf_variation2.php on line 80

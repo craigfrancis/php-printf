@@ -1,0 +1,24 @@
+     *** Testing printf() : basic functionality - using integer format ***
+     
+     -- Calling printf() with no arguments --
+004- format
+005- int(6)
+     
+007- -- Calling printf() with one arguments--
+008- 111
+009- int(3)
+005+ Warning: Undefined variable $args in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29
+     
+011- -- Calling printf() with two arguments--
+012- 111 222
+013- int(7)
+014- 
+015- -- Calling printf() with three arguments--
+016- 111 222 333
+017- int(11)
+007+ Fatal error: Uncaught TypeError: user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29 and defined in /Volumes/WebServer/Projects/php.fprint/functions.php:22
+008+ Stack trace:
+009+ #0 /Volumes/WebServer/Projects/php.fprint/functions.php(29): user_vprintf('format', NULL)
+010+ #1 /Volumes/WebServer/Projects/php.fprint/tests/files/printf_basic2.php(15): user_printf('format')
+011+ #2 {main}
+012+   thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 22

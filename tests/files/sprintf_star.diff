@@ -1,0 +1,39 @@
+     float(1.2345678901234567)
+     float(1.2345678901234569E+100)
+003- 1.2345678901
+004- 1.23456789
+005- 1.2345678901234569e+100
+006- 1.2345678901234569E+100
+007- 1.2345678901234569e+100
+008- 1.2345678901234569E+100
+009- foo
+     
+011-   1.234568
+012-    1.23457
+013-     foobar
+004+ Warning: Undefined variable $args in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29
+     
+015-      1.235
+016-       1.23
+017-        foo
+018- 
+019- 1.2345678901
+020- 1.2345678901
+021- 1.2345678901
+022-   1.234568
+023-   1.234568
+024-   1.234568
+025-      1.235
+026-      1.235
+027-      1.235
+028- 
+029- Precision must be an integer
+030- Precision must be between -1 and 2147483647
+031- Precision -1 is only supported for %g, %G, %h and %H
+032- Width must be greater than zero and less than 2147483647
+006+ Fatal error: Uncaught TypeError: user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29 and defined in /Volumes/WebServer/Projects/php.fprint/functions.php:22
+007+ Stack trace:
+008+ #0 /Volumes/WebServer/Projects/php.fprint/functions.php(29): user_vprintf('%.*f\n', NULL)
+009+ #1 /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_star.php(8): user_printf('%.*f\n', 10, 1.2345678901235)
+010+ #2 {main}
+011+   thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 22

@@ -1,0 +1,12 @@
+*** Testing printf() : basic functionality - using char format ***
+
+-- Calling printf() with no arguments --
+
+Warning: Undefined variable $args in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29
+
+Fatal error: Uncaught TypeError: user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29 and defined in /Volumes/WebServer/Projects/php.fprint/functions.php:22
+Stack trace:
+#0 /Volumes/WebServer/Projects/php.fprint/functions.php(29): user_vprintf('format', NULL)
+#1 /Volumes/WebServer/Projects/php.fprint/tests/files/printf_basic5.php(15): user_printf('format')
+#2 {main}
+  thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 22

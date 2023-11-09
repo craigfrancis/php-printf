@@ -1,0 +1,47 @@
+
+---- EXPECTED OUTPUT
+float(1.2345678901234567)
+float(1.2345678901234569E+100)
+1.2345678901
+1.23456789
+1.2345678901234569e+100
+1.2345678901234569E+100
+1.2345678901234569e+100
+1.2345678901234569E+100
+foo
+
+  1.234568
+   1.23457
+    foobar
+
+     1.235
+      1.23
+       foo
+
+1.2345678901
+1.2345678901
+1.2345678901
+  1.234568
+  1.234568
+  1.234568
+     1.235
+     1.235
+     1.235
+
+Precision must be an integer
+Precision must be between -1 and 2147483647
+Precision -1 is only supported for %g, %G, %h and %H
+Width must be greater than zero and less than 2147483647
+---- ACTUAL OUTPUT
+float(1.2345678901234567)
+float(1.2345678901234569E+100)
+
+Warning: Undefined variable $args in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29
+
+Fatal error: Uncaught TypeError: user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29 and defined in /Volumes/WebServer/Projects/php.fprint/functions.php:22
+Stack trace:
+#0 /Volumes/WebServer/Projects/php.fprint/functions.php(29): user_vprintf('%.*f\n', NULL)
+#1 /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_star.php(8): user_printf('%.*f\n', 10, 1.2345678901235)
+#2 {main}
+  thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 22
+---- FAILED

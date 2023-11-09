@@ -1,0 +1,12 @@
+*** Testing printf() : with different types of values passed for arg1 argument ***
+
+-- Iteration 1 --
+
+Warning: Undefined variable $args in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29
+
+Fatal error: Uncaught TypeError: user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29 and defined in /Volumes/WebServer/Projects/php.fprint/functions.php:22
+Stack trace:
+#0 /Volumes/WebServer/Projects/php.fprint/functions.php(29): user_vprintf('%s', NULL)
+#1 /Volumes/WebServer/Projects/php.fprint/tests/files/printf_variation2.php(84): user_printf('%s', 0)
+#2 {main}
+  thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 22

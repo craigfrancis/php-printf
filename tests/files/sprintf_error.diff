@@ -1,0 +1,24 @@
+     *** Testing sprintf() : error conditions ***
+     
+     -- Testing sprintf() function with Zero arguments --
+004- sprintf() expects at least 1 argument, 0 given
+004+ Too few arguments to function user_sprintf(), 0 passed in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_error.php on line 7 and exactly 1 expected
+     
+     -- Testing sprintf() function with less than expected no. of arguments --
+007- 2 arguments are required, 1 given
+008- 3 arguments are required, 2 given
+009- 4 arguments are required, 3 given
+010- 3 arguments are required, 1 given
+011- 4 arguments are required, 2 given
+012- 4 arguments are required, 1 given
+013- 101 arguments are required, 1 given
+014- Missing format specifier at end of string
+015- Done
+007+ 
+008+ Fatal error: Uncaught ValueError: The arguments array must contain 1 items, 0 given in /Volumes/WebServer/Projects/php.fprint/functions.php:15
+009+ Stack trace:
+010+ #0 /Volumes/WebServer/Projects/php.fprint/functions.php(15): vsprintf('%s', Array)
+011+ #1 /Volumes/WebServer/Projects/php.fprint/functions.php(19): user_vsprintf('%s', Array)
+012+ #2 /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_error.php(21): user_sprintf('%s')
+013+ #3 {main}
+014+   thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 15

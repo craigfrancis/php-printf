@@ -1,0 +1,56 @@
+--
+     string(3) "0.5"
+     
+     -- Iteration 10 --
+049- sprintf(): Argument #1 ($format) must be of type string, array given
+050- sprintf(): Argument #1 ($format) must be of type string, array given
+051- sprintf(): Argument #1 ($format) must be of type string, array given
+049+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 71
+050+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 78
+051+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 85
+     
+     -- Iteration 11 --
+054- sprintf(): Argument #1 ($format) must be of type string, array given
+055- sprintf(): Argument #1 ($format) must be of type string, array given
+056- sprintf(): Argument #1 ($format) must be of type string, array given
+054+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 71
+055+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 78
+056+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 85
+     
+     -- Iteration 12 --
+059- sprintf(): Argument #1 ($format) must be of type string, array given
+060- sprintf(): Argument #1 ($format) must be of type string, array given
+061- sprintf(): Argument #1 ($format) must be of type string, array given
+059+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 71
+060+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 78
+061+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 85
+     
+     -- Iteration 13 --
+064- sprintf(): Argument #1 ($format) must be of type string, array given
+065- sprintf(): Argument #1 ($format) must be of type string, array given
+066- sprintf(): Argument #1 ($format) must be of type string, array given
+064+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 71
+065+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 78
+066+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 85
+     
+     -- Iteration 14 --
+069- sprintf(): Argument #1 ($format) must be of type string, array given
+070- sprintf(): Argument #1 ($format) must be of type string, array given
+071- sprintf(): Argument #1 ($format) must be of type string, array given
+069+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 71
+070+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 78
+071+ user_sprintf(): Argument #1 ($format) must be of type string, array given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 85
+     
+     -- Iteration 15 --
+     string(1) "1"
+--
+     string(6) "Object"
+     
+     -- Iteration 22 --
+109- sprintf(): Argument #1 ($format) must be of type string, resource given
+110- sprintf(): Argument #1 ($format) must be of type string, resource given
+111- sprintf(): Argument #1 ($format) must be of type string, resource given
+109+ user_sprintf(): Argument #1 ($format) must be of type string, resource given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 71
+110+ user_sprintf(): Argument #1 ($format) must be of type string, resource given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 78
+111+ user_sprintf(): Argument #1 ($format) must be of type string, resource given, called in /Volumes/WebServer/Projects/php.fprint/tests/files/sprintf_variation1.php on line 85
+     Done

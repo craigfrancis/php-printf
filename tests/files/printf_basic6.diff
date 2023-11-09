@@ -1,0 +1,24 @@
+     *** Testing printf() : basic functionality - using exponential format ***
+     
+     -- Calling printf() with no arguments --
+004- format
+005- int(6)
+     
+007- -- Calling printf() with one argument --
+008- 1.000000e+3
+009- int(11)
+005+ Warning: Undefined variable $args in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29
+     
+011- -- Calling printf() with two arguments --
+012- 1.000000E+3 2.000000e+3
+013- int(23)
+014- 
+015- -- Calling printf() with three arguments --
+016- 1.000000e+3 2.000000E+3 3.000000e+3
+017- int(35)
+007+ Fatal error: Uncaught TypeError: user_vprintf(): Argument #2 ($values) must be of type array, null given, called in /Volumes/WebServer/Projects/php.fprint/functions.php on line 29 and defined in /Volumes/WebServer/Projects/php.fprint/functions.php:22
+008+ Stack trace:
+009+ #0 /Volumes/WebServer/Projects/php.fprint/functions.php(29): user_vprintf('format', NULL)
+010+ #1 /Volumes/WebServer/Projects/php.fprint/tests/files/printf_basic6.php(14): user_printf('format')
+011+ #2 {main}
+012+   thrown in /Volumes/WebServer/Projects/php.fprint/functions.php on line 22
